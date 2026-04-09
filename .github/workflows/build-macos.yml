@@ -30,7 +30,7 @@ jobs:
             --windowed \
             --name MyGPTApp \
             --clean \
-            main.py
+            transapp.py
 
       - name: Create ZIP archive
         run: |
